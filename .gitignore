@@ -1,0 +1,21 @@
+# Virtual environments
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python environment/version files
+.python-version
+
+# Specific files to exclude
+credentials.py
+TESTS.ipynb
+HPO_pandas.ipynb
+Encoder_bug_check.ipynb
+Dockerfile
+tests.sql
+RESETTING.sql

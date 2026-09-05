@@ -1,0 +1,27 @@
+[project]
+name = "snowflake-housingprice-ml-pipeline"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+
+requires-python = ">=3.12,<3.13"
+
+dependencies = [
+    "matplotlib>=3.11.1",
+    "numpy",
+    "pandas",
+    "pyarrow>=25.0.0",
+    "seaborn>=0.13.2",
+    "snowflake-core>=1.12.1",
+    "snowflake-snowpark-python>=1.53.1",
+    "snowflake-ml-python",
+    "python-dotenv>=1.2.3",
+    "fastapi>=0.141.1",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.1.1",
+    "requests>=2.34.2",
+    "uvicorn>=0.52.4",
+]
